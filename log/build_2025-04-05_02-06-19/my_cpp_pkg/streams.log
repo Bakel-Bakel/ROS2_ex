@@ -1,0 +1,97 @@
+[0.011s] Invoking command in '/home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bakelbakel/Documents/ros2_ex/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg
+[0.052s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.109s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.612s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.664s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.708s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.741s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.752s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.777s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.840s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.844s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.929s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.946s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.039s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.085s] -- Found my_robot_interfaces: 0.0.0 (/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.160s] -- Configuring done (1.1s)
+[1.185s] -- Generating done (0.0s)
+[1.194s] -- Build files have been written to: /home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg
+[1.203s] Invoked command in '/home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bakelbakel/Documents/ros2_ex/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg
+[1.203s] Invoking command in '/home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg -- -j12 -l12
+[1.255s] [ 22%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[1.255s] [ 22%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[1.255s] [ 22%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[1.256s] [ 22%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.256s] [ 22%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.256s] [ 27%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.262s] [ 40%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[1.262s] [ 40%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[1.262s] [ 40%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[1.265s] [ 45%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[1.265s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[630.481s] [ 54%] [32m[1mLinking CXX executable cpp_node[0m
+[631.305s] [ 59%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[631.423s] [ 59%] Built target cpp_node
+[631.538s] [ 63%] [32m[1mLinking CXX executable battery[0m
+[631.638s] [ 68%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[631.832s] [ 72%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[632.082s] [ 72%] Built target add_two_ints_server
+[632.083s] [ 72%] Built target battery
+[632.207s] [ 77%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[632.303s] [ 77%] Built target add_two_ints_client_no_oop
+[632.454s] [ 77%] Built target add_two_ints_client
+[632.660s] [ 81%] [32m[1mLinking CXX executable robot_news_station[0m
+[632.799s] [ 81%] Built target hw_status_publisher
+[633.050s] [ 86%] [32m[1mLinking CXX executable number_publisher[0m
+[633.076s] [ 86%] Built target robot_news_station
+[633.353s] [ 86%] Built target number_publisher
+[634.213s] [ 90%] [32m[1mLinking CXX executable led_panel[0m
+[634.540s] [ 90%] Built target led_panel
+[636.341s] [ 95%] [32m[1mLinking CXX executable smartphone[0m
+[636.583s] [ 95%] Built target smartphone
+[636.891s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[637.220s] [100%] Built target number_counter
+[637.268s] Invoked command in '/home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg -- -j12 -l12
+[637.279s] Invoking command in '/home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg
+[637.296s] -- Install configuration: ""
+[637.296s] -- Execute custom install script
+[637.297s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[637.317s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[637.329s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[637.339s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[637.348s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[637.356s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[637.363s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[637.370s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[637.377s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[637.384s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel
+[637.392s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/lib/my_cpp_pkg/battery
+[637.399s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[637.409s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[637.419s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[637.426s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[637.437s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[637.446s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[637.453s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[637.460s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[637.467s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[637.474s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[637.483s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[637.490s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[637.497s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[637.506s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[637.513s] -- Symlinking: /home/bakelbakel/Documents/ros2_ex/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[637.524s] Invoked command in '/home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bakelbakel/Documents/ros2_ex/build/my_cpp_pkg

@@ -1,0 +1,9 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/bakelbakel/Documents/ros2_ex/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/bakelbakel/Documents/ros2_ex/src/my_robot_interfaces:msg/LedStateArray.msg",
+    "/home/bakelbakel/Documents/ros2_ex/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/bakelbakel/Documents/ros2_ex/src/my_robot_interfaces:srv/SetLed.srv"
+  ]
+}

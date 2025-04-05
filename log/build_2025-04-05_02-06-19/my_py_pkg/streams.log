@@ -1,0 +1,34 @@
+[0.620s] Invoking command in '/home/bakelbakel/Documents/ros2_ex/build/my_py_pkg': AMENT_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bakelbakel/Documents/ros2_ex/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/python3.12/site-packages:/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bakelbakel/Documents/ros2_ex/build/my_py_pkg/build --no-deps symlink_data
+[0.819s] running develop
+[0.936s] running egg_info
+[0.937s] creating my_py_pkg.egg-info
+[0.948s] writing my_py_pkg.egg-info/PKG-INFO
+[0.948s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.948s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.949s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.949s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.949s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.973s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.973s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.986s] running build_ext
+[0.986s] Creating /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[0.987s] Installing add_two_ints_client script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.987s] Installing add_two_ints_client_no_oop script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.987s] Installing add_two_ints_server script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.987s] Installing battery script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.987s] Installing hw_status_publisher script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.987s] Installing led_panel script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.987s] Installing number_counter script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.988s] Installing number_publisher script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.988s] Installing py_node script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.988s] Installing robot_news_station script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.988s] Installing smartphone script to /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/my_py_pkg
+[0.988s] 
+[0.988s] Installed /home/bakelbakel/Documents/ros2_ex/build/my_py_pkg
+[0.988s] running symlink_data
+[0.988s] creating /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/share/ament_index
+[0.988s] creating /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/share/ament_index/resource_index
+[0.988s] creating /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.988s] symbolically linking /home/bakelbakel/Documents/ros2_ex/build/my_py_pkg/resource/my_py_pkg -> /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.988s] symbolically linking /home/bakelbakel/Documents/ros2_ex/build/my_py_pkg/package.xml -> /home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/share/my_py_pkg
+[1.015s] Invoked command in '/home/bakelbakel/Documents/ros2_ex/build/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bakelbakel/Documents/ros2_ex/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bakelbakel/Documents/ros2_ex/install/my_py_pkg/lib/python3.12/site-packages:/home/bakelbakel/Documents/ros2_ex/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bakelbakel/Documents/ros2_ex/build/my_py_pkg/build --no-deps symlink_data
